@@ -1,5 +1,253 @@
 
+.headerf1{
+    background-color: black;
+    position: relative;
+}
 .header1{
     font-size: 12px;
     font-weight: 400;
 }
+.h1icons{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    box-sizing: border-box;
+}
+@media (min-width: 1200px){
+    .logo{
+        margin-left: 30.2%;  
+    }
+    
+    }
+@media (max-width: 1200px){
+        .logo{
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 100px;
+            
+        }
+        
+        }
+        
+    
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(13,13,13);
+    font-size: 14px;
+}
+.carousel-item{
+    cursor: pointer;
+}
+.carousel-control-prev-icon {
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    bottom: 100px;
+    right: 70px;
+}
+.carousel-caption{
+    
+    bottom: 20vh;
+    right:12%;
+    left: 10%;
+    text-align: left;
+}
+
+@media (max-width: 1200px){
+    .carousel-caption{
+    bottom: 11%;
+    right:12%;
+    left: 2%;
+    }
+    }
+
+.carousel-caption button{
+    border: 0ch;
+    width: 220px;
+    height: 50px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    background-image: linear-gradient(to right, rgba(250, 0, 0, 0) 0px, rgba(255, 0, 0, 0.5) 100%);
+   }
+   .carousel-inner h1{
+        font-size: 5vw;
+        
+   }
+
+   
+  .carousel-item:after {
+    content:'';
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:100%;
+    display:inline-block;
+    background: -webkit-linear-gradient(right, rgba(7, 0, 0, 0.1) 0%,rgba(0, 0, 0,0.7) 100%); /* Chrome10+,Safari5.1+ */
+  }
+
+
+
+.row2img1{
+    position: relative;
+    background-color: aqua;
+    
+}
+.row2img1 img{
+    width: 100%;
+    z-index: -2;
+}
+.row2img2 img{
+    width: 100%;
+    z-index: -2;
+}
+.bt2{
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+    margin-right: -35%;
+    z-index: 1;
+    
+}
+.bt3{
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+    margin-right: -35%;
+    z-index: 1;
+}
+
+
+    
+
+.bt2bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    opacity: .5;
+
+    
+}
+.bt3bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    opacity: .5;
+}
+
+.bt2 button{
+    border: 0ch;
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.bt3 button{
+    border: 0ch;
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.row2img2{
+    position: relative;
+    width: fit-content;
+    
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.img4 img{
+    width:100% ;
+}
+
+.img4{
+    position: relative;
+}
+
+.img4bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.692) , rgba(0, 0, 0, 0));/* Chrome10+,Safari5.1+ */
+    top: 0;
+   
+}
+.img4h1{
+    
+    position: absolute;
+    display:contents;
+    font-size: 4vw;
+    font-weight: 750;
+    color: white;
+}
+.bt4{
+    position: absolute;
+    margin-top: 5px;
+    z-index: 1;
+}
+.bt4c{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+}
+@media (max-width: 1200px){
+    .bt4c{
+        position: absolute;
+        bottom: 50%;
+        left: 2%;
+    }
+    }
+.bt4 button{
+    border: 0ch;
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-block {
+    height: 100%;
+
+    margin-left: 20px;
+}
+.cardswipe{
+    overflow-x: auto ;
+    
+    
+}
+.card-block{
+    text-overflow: ellipsis;
+    
+}
+
+.cardswipe::-webkit-scrollbar {
+    display: none;
+  }
+
+  .col-3 p{
+      width: 95%;
+      height: 20px;
+      background-color: aqua;
+      margin-left: 20px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      
+  }
