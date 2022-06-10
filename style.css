@@ -225,29 +225,39 @@
 
 .card-block {
     height: 100%;
-
+    
     margin-left: 20px;
 }
 .cardswipe{
     overflow-x: auto ;
+
     
-    
+}
+.scrollc{
+    background-color: #e4eaeb;
+    margin-bottom: 4%;
 }
 .card-block{
     text-overflow: ellipsis;
+    overflow: hidden;
+    
     
 }
 
 .cardswipe::-webkit-scrollbar {
     display: none;
   }
+  
 
   .col-3 p{
-      width: 95%;
-      height: 20px;
-      background-color: aqua;
-      margin-left: 20px;
-      overflow: hidden;
-      text-overflow: ellipsis;
       
-  }
+      width: 94%;
+      height: 20px;
+      margin-left: 20px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      font-size: 15px;
+      
+
+    }
+
