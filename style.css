@@ -74,6 +74,20 @@
     font-size: small;
     font-weight: bold;
 }
+@media  (max-width:400px) {
+    .carousel-caption button{
+        border: 0ch;
+        width: 150px;
+        height: 40px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .carousel-caption{
+        padding-left:7%;
+        text-align: center;
+        font-size: small;
+    }
+}
 
 .carousel-inner{
     background-image: linear-gradient(to right, rgba(250, 0, 0, 0) 0px, rgba(255, 0, 0, 0.5) 100%);
@@ -279,3 +293,46 @@ input[type="text"]::placeholder {
     width: 100px;
     height: 51px;
 }
+@media (max-width:770px){
+    .f1sub{
+        margin-left: 80px;
+        
+    }
+}
+@media (max-width:584px){
+    .f1sub{
+        margin-left: 10px;
+        
+    }
+}
+@media (max-width:1129px)
+{
+    .f1sub button{
+        margin-top: 10px;
+        
+    }
+}
+@media (min-width:768px){
+    .f1sub button{
+        margin-top: 10px;
+        
+    }
+}
+@media (min-width:1129px)
+{
+    .f1sub button{
+        margin-top: 0px;
+        
+    }
+}
+@media (max-width:768px){
+    .f1sub button{
+        margin-top: 0px;
+        
+    }
+@media (max-width:644px){
+    .f1sub button{
+        margin-top: 10px;
+            
+    }
+
